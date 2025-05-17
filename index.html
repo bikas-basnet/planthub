@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Hub of Himalayan Nepal</title>
+    <meta name="description" content="Discover rare and exotic Himalayan plants sourced ethically from Nepal's majestic mountains.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text" style="color: #ffffff;">The plant Hub of Himalayan-Nepal</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active" style="color: #ffffff;">Home</a></li>
+            <li><a href="#about" style="color: #ffffff;">About</a></li>
+            <li><a href="#plants" style="color: #ffffff;">Plants</a></li>
+            <li><a href="#Tourisgt" style="color: #ffffff;">Tourist Service</a></li>
+            <li><a href="#Our Products" style="color: #ffffff;">Our Products</a></li>
+            <li><a href="#blog" style="color: #ffffff;">Blog</a></li>
+            <li><a href="#contact" style="color: #ffffff;">Contact</a></li>
+            <li><a href="admin.html" class="admin-link" style="color: #ffffff;">Admin Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover the Mysteries and natural Treasures of the Himalayan Region</h1>
+                <p>Bringing specimen from the majestic Himalayas to your home, with sustainable practices and expert knowledge.</p>
+                <div class="hero-buttons">
+                    <a href="#plants" class="btn btn-primary">Explore Plants</a>
+                    <a href="#about" class="btn btn-outline">Our Story</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- Featured Plants Section -->
+    <section class="featured-plants" id="plants">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Plants</h2>
+                <p>Explore our selection of rare and beautiful plants native to the Himalayan region.</p>
+            </div>
+            <div class="plants-grid" id="plantsGrid">
+                <!-- Plants will be populated via JavaScript -->
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-outline">View All Plants</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Our Himalayan Heritage</h2>
+                    <p>Founded by a team of passionate agriculture researcher, botanist and conservationists, The Plant Hub of Himalayan Nepal is dedicated to preserving and sharing the diversity of the majestic Himalayan region.</p>
+                    <p>We work directly with local communities to sustainably harvest and propagate rare plant species, ensuring their survival for generations to come while supporting local livelihoods.</p>
+                    <div class="commitment">
+                        <div class="commitment-line"></div>
+                        <div class="commitment-content">
+                            <h4>Our commitment to sustainability</h4>
+                            <p>Every plant in our collection is ethically sourced and cultivated with respect for nature and local communities.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read Our Story</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/5797913/pexels-photo-5797913.jpeg" alt="Himalayan mountains and plants">
+                    <div class="about-badge">
+                        <span class="badge-icon">🌿</span>
+                        <div class="badge-text">
+                            <p>Serving Plant Enthusiasts, conservation enthusiastic, climate smart practises in impacted regions, </p>
+                            <p class="badge-year">Since 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest From Our Blog</h2>
+                <p>Discover insights on plant care, conservation efforts, and stories from the Himalayan region.</p>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <span class="newsletter-icon">✉️</span>
+                <h2>Stay Connected With Us</h2>
+                <p>Subscribe to our newsletter for exclusive updates on new plant arrivals, care tips, and special offers.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-accent">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🌿</span>
+                        <span class="logo-text">Plant Hub</span>
+                    </div>
+                    <p>Bringing the rarest and most exquisite plants from the Himalayan region of Nepal to plant enthusiasts worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Facebook">👥</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#plants">Plant Catalog</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>📍 123 Chitwan, Nepal</li>
+                        <li>📞 +977 9865509334</li>
+                        <li>📧 info@bikasbasnet.com.np</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates on new plant arrivals and care tips.</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-accent">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Plant Hub of Himalayan Nepal. 2025@All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
