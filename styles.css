@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url('Image/NI1.png');
+    background-image: url('https://github.com/bikas-basnet/planthub/main/Img/NI1.png');
     background-size: cover;
     background-position: center;
     position: relative;
